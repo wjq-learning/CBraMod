@@ -17,10 +17,6 @@ class CustomDataset(Dataset):
         self.db = lmdb.open(data_dir, readonly=True, lock=False, readahead=True, meminit=False)
         with self.db.begin(write=False) as txn:
             self.keys = pickle.loads(txn.get('__keys__'.encode()))[mode]
-        if mode == 'train':
-            random.shuffle(self.keys)
-            length = len(self.keys)
-            self.keys = self.keys[:int(length * 0.3)]
 
     def __len__(self):
         return len((self.keys))
