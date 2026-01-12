@@ -23,7 +23,7 @@ def main():
     parser.add_argument('--optimizer', type=str, default='AdamW', help='optimizer (AdamW, SGD)')
     parser.add_argument('--clip_value', type=float, default=1, help='clip_value')
     parser.add_argument('--dropout', type=float, default=0.1, help='dropout')
-    parser.add_argument('--classifier', type=str, default='avgpooling_patch_reps',
+    parser.add_argument('--classifier', type=str, default='all_patch_reps',
                         help='[all_patch_reps, all_patch_reps_twolayer, '
                              'all_patch_reps_onelayer, avgpooling_patch_reps]')
     # all_patch_reps: use all patch features with a three-layer classifier;
