@@ -112,7 +112,7 @@ If you're using this repository in your research or applications, please cite us
 
 ## ⭐ Star History
 <div align="center">
-    <a href="https://star-history.com/#wjq-learning/CBraMod&Date">
-        <img src="https://api.star-history.com/svg?repos=wjq-learning/CBraMod&type=Date" style="width: 80%;" />
+    <a href="https://star-history.dera.page/#wjq-learning/CBraMod&Date">
+        <img src="https://star-history.dera.page/svg?repos=wjq-learning/CBraMod&type=Date" style="width: 80%;" />
     </a>
 </div>
